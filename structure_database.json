@@ -1,0 +1,45 @@
+{
+  "__comment__": "This file associates the radius of an atom in angstrom of an atom takin into account the Hybridization state of the atom in the amino acid. The radius are taken from https://www.rbvi.ucsf.edu/chimerax/docs/user/radii.html which is based on The packing density in proteins: standard radii and volumes. Tsai J, Taylor R, Chothia C, Gerstein M. J Mol Biol. 1999 Jul 2;290(1):253-66",
+  "GLY": {"chem_structure": "linear  ", "dof": 0, "atoms_number": 4, "terminal_atom": [], "1_letter_code": "G"},
+
+  "ALA": {"chem_structure": "linear  ", "dof": 0, "atoms_number": 5, "terminal_atom": ["CB"], "1_letter_code": "A"},
+
+  "ILE": {"chem_structure": "branched 5I", "dof": 2, "atoms_number": 8, "terminal_atom": ["CD1"], "1_letter_code": "I"},
+
+  "LEU": {"chem_structure": "branched 6 ", "dof": 2, "atoms_number": 8, "terminal_atom": ["CD1", "CD2"], "1_letter_code": "L"},
+
+  "PRO": {"chem_structure": "aromatic 1", "dof": 0, "atoms_number": 7, "terminal_atom": [], "1_letter_code": "P"},
+
+  "VAL": {"chem_structure": "branched 5 ", "dof": 1, "atoms_number": 7, "terminal_atom": ["CG1", "CG2"], "1_letter_code": "V"},
+
+  "PHE": {"chem_structure": "aromatic 10000", "dof": 2, "atoms_number": 11, "terminal_atom": ["CG", "CD1", "CD2", "CE1", "CE2", "CZ"], "1_letter_code": "F"},
+
+  "TRP": {"chem_structure": "aromatic 10010000", "dof": 2, "atoms_number": 14, "terminal_atom": ["CG", "CD1", "CD2", "NE1", "CE2", "CE3", "CZ2", "CZ3", "CH2"], "1_letter_code": "W"},
+
+  "TYR": {"chem_structure": "aromatic 100T", "dof": 2, "atoms_number": 12, "terminal_atom": ["CG", "CD1", "CD2", "CE1", "CE2", "CZ", "OH"], "1_letter_code": "Y"},
+
+  "ASP": {"chem_structure": "branched 6 ", "dof": 2, "atoms_number": 8, "terminal_atom": ["OD1", "OD2"], "1_letter_code": "D"},
+
+  "GLU": {"chem_structure": "branched 7 ", "dof": 3, "atoms_number": 9, "terminal_atom": ["OE1", "OE2"], "1_letter_code": "E"},
+
+  "ARG": {"chem_structure": "branched 9 ", "dof": 5, "atoms_number": 11, "terminal_atom": ["NH1", "NH2"], "1_letter_code": "R"},
+
+  "ARG_Special": {"chem_structure": "arg_spe    ", "dof": 5, "atoms_number": 11},
+
+  "HIS": {"chem_structure": "aromatic 1000", "dof": 2, "atoms_number": 10, "terminal_atom": ["CG", "ND1", "CD2", "CE1", "NE2"], "1_letter_code": "H"},
+
+  "LYS": {"chem_structure": "linear  ", "dof": 4, "atoms_number": 9, "terminal_atom": ["NZ"], "1_letter_code": "K"},
+
+  "SER": {"chem_structure": "linear  ", "dof": 1, "atoms_number": 6, "terminal_atom": ["OG"], "1_letter_code": "S"},
+
+  "THR": {"chem_structure": "branched 5 ", "dof": 1, "atoms_number": 7, "terminal_atom": ["OG1", "CG2"], "1_letter_code": "T"},
+
+  "CYS": {"chem_structure": "linear  ", "dof": 1, "atoms_number": 6, "terminal_atom": ["SG"], "1_letter_code": "C"},
+
+  "MET": {"chem_structure": "linear  ", "dof": 3, "atoms_number": 8, "terminal_atom": ["CE"], "1_letter_code": "M"},
+
+  "ASN": {"chem_structure": "branched 6 ", "dof": 2, "atoms_number": 8, "terminal_atom": ["OD1", "ND2"], "1_letter_code": "N"},
+
+  "GLN": {"chem_structure": "branched 7 ", "dof": 3, "atoms_number": 9, "terminal_atom": ["OE1", "NE2"], "1_letter_code": "Q"}
+
+}

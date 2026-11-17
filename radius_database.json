@@ -1,0 +1,135 @@
+{
+  "__comment__": "This file associates the radius of an atom in angstrom of an atom takin into account the Hybridization state of the atom in the amino acid. The radius are taken from https://www.rbvi.ucsf.edu/chimerax/docs/user/radii.html which is based on The packing density in proteins: standard radii and volumes. Tsai J, Taylor R, Chothia C, Gerstein M. J Mol Biol. 1999 Jul 2;290(1):253-66",
+  "__backbone__": {
+    "N":  {"radius": 1.64},
+    "CA": {"radius": 1.88},
+    "C":  {"radius": 1.61},
+    "O":  {"radius": 1.42}
+  },
+  "ALA": {
+    "CB": {"radius": 1.88}
+  },
+  "ILE": {
+    "CB": {"radius": 1.88},
+    "CG1": { "radius": 1.88},
+    "CG2": { "radius": 1.88},
+    "CD1": { "radius": 1.88}
+  },
+    "LEU": {
+        "CB": {"radius": 1.88},
+        "CG": { "radius": 1.88},
+        "CD1": { "radius": 1.88},
+        "CD2": { "radius": 1.88}
+    },
+    "PRO": {
+        "CB": {"radius": 1.88},
+        "CG": { "radius": 1.88},
+        "CD": { "radius": 1.88}
+    },
+    "VAL": {
+        "CB": {"radius": 1.88},
+        "CG1": { "radius": 1.88},
+        "CG2": { "radius": 1.88}
+    },
+    "PHE": {
+        "CB": {"radius": 1.88},
+        "CG": { "radius": 1.61},
+        "CD1": { "radius": 1.76},
+        "CD2": { "radius": 1.76},
+        "CE1": { "radius": 1.76},
+        "CE2": { "radius": 1.76},
+        "CZ": { "radius": 1.76}
+    },
+    "TRP": {
+        "CB": {"radius": 1.88},
+        "CG": { "radius": 1.61},
+        "CD1": { "radius": 1.76},
+        "CD2": { "radius": 1.61},
+        "NE1": { "radius": 1.64},
+        "CE2": { "radius": 1.61},
+        "CE3": { "radius": 1.76},
+        "CZ2": { "radius": 1.76},
+        "CZ3": { "radius": 1.76},
+        "CH2": { "radius": 1.76}
+    },
+    "TYR": {
+        "CB": {"radius": 1.88},
+        "CG": { "radius": 1.61},
+        "CD1": { "radius": 1.76},
+        "CD2": { "radius": 1.76},
+        "CE1": { "radius": 1.76},
+        "CE2": { "radius": 1.76},
+        "CZ": { "radius": 1.61},
+        "OH": { "radius": 1.46}
+    },
+    "ASP": {
+        "CB": {"radius": 1.88},
+        "CG": { "radius": 1.61},
+        "OD1": { "radius": 1.42},
+        "OD2": { "radius": 1.42}
+    },
+    "GLU": {
+        "CB": {"radius": 1.88},
+        "CG": { "radius": 1.88},
+        "CD": { "radius": 1.61},
+        "OE1": { "radius": 1.42},
+        "OE2": { "radius": 1.42}
+    },
+    "ARG": {
+        "CB": {"radius": 1.88},
+        "CG": { "radius": 1.88},
+        "CD": { "radius": 1.88},
+        "NE": { "radius": 1.64},
+        "CZ": { "radius": 1.61},
+        "NH1": { "radius": 1.64},
+        "NH2": { "radius": 1.64}
+    },
+    "HIS": {
+        "CB": {"radius": 1.88},
+        "CG": { "radius": 1.61},
+        "ND1": { "radius": 1.64},
+        "CD2": { "radius": 1.76},
+        "CE1": { "radius": 1.76},
+        "NE2": { "radius": 1.64}
+    },
+    "LYS": {
+        "CB": {"radius": 1.88},
+        "CG": { "radius": 1.88},
+        "CD": { "radius": 1.88},
+        "CE": { "radius": 1.88},
+        "NZ": { "radius": 1.64}
+    },
+    "SER": {
+        "CB": {"radius": 1.88},
+        "OG": { "radius": 1.46}
+    },
+    "THR": {
+        "CB": {"radius": 1.88},
+        "OG1": { "radius": 1.46},
+        "CG2": { "radius": 1.88}
+    },
+    "CYS": {
+        "CB": {"radius": 1.88},
+        "SG": { "radius": 1.77}
+    },
+    "MET": {
+        "CB": {"radius": 1.88},
+        "CG": { "radius": 1.88},
+        "SD": { "radius": 1.77},
+        "CE": { "radius": 1.88}
+    },
+    "ASN": {
+        "CB": {"radius": 1.88},
+        "CG": { "radius": 1.61},
+        "OD1": { "radius": 1.42},
+        "ND2": { "radius": 1.64}
+    },
+    "GLN": {
+        "CB": {"radius": 1.88},
+        "CG": { "radius": 1.88},
+        "CD": { "radius": 1.61},
+        "OE1": { "radius": 1.42},
+        "NE2": { "radius": 1.64}
+    }
+
+}
